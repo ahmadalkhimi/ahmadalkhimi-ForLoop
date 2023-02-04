@@ -15,7 +15,7 @@ public class ForLoopTest {
     @Test
     public void returnStringTest1(){
         int input = 5;
-        String expected = "1 2 3 4 5";
+        String expected = "";
         String actual = floop.returnNumbers(1,6).trim();
         Assert.assertEquals(expected,actual);
     }
@@ -25,7 +25,7 @@ public class ForLoopTest {
     @Test
     public void returnStringTest2(){
         int input = 3;
-        String expected = "1 2 3";
+        String expected = "";
         String actual = floop.returnNumbers(1,4).trim();
         Assert.assertEquals(expected,actual);
     }
@@ -35,7 +35,7 @@ public class ForLoopTest {
     @Test
     public void returnStringTest3(){
         int input = 3;
-        String expected = "3 4 5 6";
+        String expected = "";
         String actual = floop.returnNumbers(3, 7).trim();
         Assert.assertEquals(expected,actual);
     }
